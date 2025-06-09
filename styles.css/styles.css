@@ -1,0 +1,22 @@
+/* Global */
+
+@import "./global/global.css";
+
+/* Header */
+
+@import "./header/header.css";
+
+/* Pagina Inicial */
+@import "./pagina-inicial/pagina-inicial.css";
+
+/* Personagens */
+@import "./personagens/personagens.css";
+
+/* Jogos */
+@import "./jogos/jogos.css";
+
+/* Hylights */
+@import "./highlights/highlights.css";
+
+/* Texto */
+@import "./texto/texto.css";

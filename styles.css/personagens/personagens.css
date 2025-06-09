@@ -1,0 +1,60 @@
+.personagem-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 80px;
+}
+
+.imagem-personagem {
+  max-width: 300px;
+}
+
+.imagem-personagem:hover {
+  max-width: 300px;
+}
+
+.personagem-conteudo {
+  max-width: max-content;
+  background-color: #fff2f7;
+  border-radius: 20px;
+  position: relative;
+}
+
+.personagem-conteudo p {
+  padding: 40px 40px;
+  font-family: "Roboto";
+  font-size: 32px;
+  max-width: 35ch;
+  line-height: 3rem;
+}
+
+.personagem-nome {
+  display: inline-block;
+  height: 40px;
+  background-color: #ffbbc5;
+  font-size: 32px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-family: "Poppins";
+  text-align: center;
+}
+
+/* .personagem-conteudo::before {
+  content: "Basil";
+  display: inline-block;
+  width: max-content;
+  height: 40px;
+  background-color: #ffbbc5;
+  position: absolute;
+  top: -50px;
+  right: 620px;
+  font-size: 32px;
+  padding: 5px 10px;
+} */
+
+.personagens-menu {
+  color: blueviolet;
+}

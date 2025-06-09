@@ -1,0 +1,28 @@
+.menu {
+  font-family: Poppins;
+  font-size: 28px;
+  padding: 40px 40px;
+  max-width: 1400px;
+  margin: 0 auto;
+  font-weight: 500;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.marca-fernanda {
+  display: flex;
+  align-items: center;
+}
+
+.navegacao {
+  display: flex;
+  gap: 20px;
+  transition: 0.3s;
+}
+
+.navegacao a:hover {
+  color: red;
+}

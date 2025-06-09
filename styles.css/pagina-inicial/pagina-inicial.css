@@ -1,0 +1,313 @@
+.introducao {
+  padding: 40px 40px;
+  max-width: 1400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.introducao p {
+  margin-left: 10px;
+  padding-left: 20px;
+  font-family: Poppins;
+  font-size: 96px;
+  font-weight: bold;
+}
+
+.texto p {
+  position: relative;
+}
+
+.texto p::after {
+  content: url("../../imagens/pagina-inicial/icones/inseto_flor.svg");
+  display: block;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  right: 430px;
+  top: 250px;
+  transition-duration: 0.5s;
+}
+
+.texto p:hover:after {
+  transform: scale(1.1);
+}
+
+.title {
+  max-width: 1400px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.title h1 {
+  font-family: Poppins;
+  font-size: 96px;
+  margin-top: 80px;
+  position: absolute;
+  top: -40px;
+  z-index: 1;
+}
+
+.letra-branca {
+  color: #ffffff;
+}
+
+.title::before {
+  content: url("../../imagens/pagina-inicial/img/retangulo-detalhe-titulo.png");
+  position: absolute;
+  display: inline;
+  left: -20px;
+  top: 60px;
+}
+
+.personagens-bg {
+  background-color: #fff2f6;
+  margin-top: 20px;
+  box-shadow: inset 0 150px #ffffff, inset 0 -150px #ffffff;
+}
+
+.personagens {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.personagens img {
+  object-fit: cover;
+}
+
+.personagens-conteudo > h1 {
+  font-size: 96px;
+  margin-top: 240px;
+  margin-left: 60px;
+}
+
+.personagens-conteudo > h1::before {
+  content: "“";
+}
+
+.personagens-conteudo > h1::after {
+  content: "”";
+}
+
+.personagens-conteudo p {
+  margin-top: 80px;
+  padding-left: 60px;
+  font-family: "Roboto";
+  font-size: 24px;
+  max-width: 50ch;
+  line-height: 2em;
+}
+
+.personagens-conteudo .botao a {
+  display: block;
+  margin-top: 80px;
+  margin-left: 60px;
+  background-color: #ffd8e4;
+  padding: 30px 50px;
+  text-align: left;
+  max-width: 180px;
+  font-size: 24px;
+  font-family: "Roboto";
+  border-radius: 20px;
+  color: #9a6b7a;
+}
+
+.personagens-conteudo .botao a:hover {
+  color: rgb(114, 0, 19);
+}
+
+.botao {
+  position: relative;
+}
+
+.botao img {
+  position: absolute;
+  top: 9px;
+  right: 400px;
+}
+
+.title-jogos {
+  max-width: 1400px;
+  margin: 0 auto;
+  position: relative;
+  z-index: -1;
+}
+
+.title-jogos h1 {
+  font-family: Poppins;
+  font-size: 96px;
+  margin-top: 80px;
+  position: relative;
+}
+
+.title-jogos::before {
+  content: url("../../imagens/pagina-inicial/img/retangulo-detalhe-titulo.png");
+  position: absolute;
+  left: -20px;
+  top: 30px;
+}
+
+.jogos-bg {
+  background-color: #fff2f6;
+}
+
+.jogos {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  margin: 0 auto;
+}
+
+.jogos > img {
+  justify-self: start;
+}
+
+.personagens-conteudo-jogos {
+  background-color: #fff2f6;
+}
+
+.personagens-conteudo-jogos > h1 {
+  font-size: 96px;
+  margin-left: 60px;
+  margin-top: 50px;
+}
+
+.personagens-conteudo-jogos > h1::before {
+  content: "“";
+}
+
+.personagens-conteudo-jogos > h1::after {
+  content: "”";
+}
+
+.personagens-conteudo-jogos {
+  align-self: center;
+}
+
+.personagens-conteudo-jogos p {
+  margin-top: 80px;
+  padding-left: 60px;
+  font-family: "Roboto";
+  font-size: 24px;
+  max-width: 50ch;
+  line-height: 2em;
+}
+
+.personagens-conteudo-jogos .botao-jogos a {
+  display: flex;
+  margin-top: 90px;
+  margin-left: 60px;
+  background-color: #ffd8e4;
+  padding: 5px 50px;
+  text-align: left;
+  max-width: 180px;
+  font-size: 24px;
+  font-family: "Roboto";
+  border-radius: 20px;
+  color: #9a6b7a;
+  align-items: center;
+  gap: 10px;
+}
+
+.personagens-conteudo-jogos .botao-jogos a:hover {
+  color: rgb(114, 0, 19);
+}
+
+.title-highlights {
+  max-width: 1400px;
+  margin: 0 auto;
+  position: relative;
+  z-index: -1;
+}
+
+.title-highlights h1 {
+  font-family: Poppins;
+  font-size: 96px;
+  margin-top: 80px;
+  position: relative;
+}
+
+.title-highlights::before {
+  content: url("../../imagens/pagina-inicial/img/retangulo-detalhe-titulo.png");
+  position: absolute;
+  left: -20px;
+  top: 20px;
+}
+
+.highlighs-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.highlights-conteudo {
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 200px;
+}
+
+.highlights-conteudo li {
+  transition: 0.5s;
+}
+
+.highlights-conteudo li:hover {
+  box-shadow: -10px -10px pink;
+  transform: rotate(-10deg) scale(1.1);
+}
+
+.title-texto {
+  max-width: 1400px;
+  margin: 0 auto;
+  position: relative;
+  z-index: -1;
+}
+
+.title-texto h1 {
+  font-family: Poppins;
+  font-size: 96px;
+  margin-top: 80px;
+  position: relative;
+}
+
+.title-texto::before {
+  content: url("../../imagens/pagina-inicial/img/retangulo-detalhe-titulo.png");
+  position: absolute;
+  left: -20px;
+  top: 20px;
+}
+
+.livro-texto {
+  display: flex;
+  justify-content: center;
+}
+
+.livro-texto img {
+  transition: 0.5s;
+}
+.livro-texto img:hover {
+  transform: scale(1.2);
+}
+
+.footer-bg {
+  background-color: #b28292;
+  margin-top: 90px;
+}
+
+.footer-conteudo {
+  max-width: 1400px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.footer-conteudo p {
+  font-family: "Roboto";
+  font-size: 48px;
+  font-weight: bold;
+  color: #ffffff;
+}

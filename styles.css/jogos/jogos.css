@@ -1,0 +1,62 @@
+.cor-pocket {
+  background-color: #e1accb;
+}
+
+.cor-omori {
+  background-color: #808080;
+}
+
+.cor-undertale {
+  background-color: #fa9598;
+}
+
+.cor-deltarune {
+  background-color: #f1555b;
+}
+
+.cor-lgts {
+  background-color: #e8393a;
+}
+
+.cor-infinity {
+  background-color: #f2f2f2;
+}
+
+.jogos-container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 40px;
+  align-items: center;
+}
+
+.jogo-conteudo {
+  align-self: center;
+  position: relative;
+}
+
+.jogo-conteudo::before {
+  content: url("../../imagens/jogos/icones/detalhe.svg");
+  display: inline-block;
+  position: absolute;
+  left: -60px;
+  top: 30px;
+}
+
+.jogos-container p {
+  max-width: 40ch;
+  font-size: 32px;
+  font-family: Roboto;
+  line-height: 3rem;
+  padding: 20px 25px;
+  border-radius: 10px;
+}
+
+.jogo-imagem {
+  width: 500px;
+}
+
+.jogos-menu {
+  color: blueviolet;
+}
